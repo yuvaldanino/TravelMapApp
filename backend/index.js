@@ -4,11 +4,16 @@ const dotenv = require("dotenv")
 const app = express();
 const pinRoute = require("./routes/pins")
 const userRoute = require("./routes/users")
+const cors = require("cors");  // Require CORS
 
 
 dotenv.config();
 
 app.use(express.json())
+app.use(cors({
+    origin: 'http://localhost:3000' // Allow only requests from this origin
+  }));
+
 
 mongoose.connect(process.env.MONGO_URL , {
     useNewUrlParser : true ,
