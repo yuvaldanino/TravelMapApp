@@ -19,16 +19,20 @@ Follow these steps to set up the application on your local machine. Make sure yo
 
 1. **Clone the Repository**
    ```bash
-   git clone [Your Repository URL]
-2. **install yarn and dependencies**  
+   git clone https://github.com/yuvaldanino/TravelMapApp.git
+2. **Requirements**  
    ```bash
-   yarn install
-3. **Start Backend Server**
+   - Node.js
+   - yarn 
+3. **Start Backend Server & install dependencies**
    ```bash
    cd backend
+   yarn install (to install dependencies)
    yarn start
-4. **Start Frontend (React APP)**
+4. **Start Frontend (React APP) & install dependencies**
    ```bash
    cd frontend
-   yarn start 
+   yarn install (to install dependencies)
+   yarn start
+5. **Open web application on browser**
    
