@@ -1,9 +1,9 @@
 # TravelMapApp (MERN)
 
 ## Introduction
-**MapPin** is a web-based map application developed using the MERN stack (MongoDB, Express, React, Node.js). 
-This application enables users to log in, interact with a map, and place pins at specific locations. Each pin includes a title, description, and rating. 
-All users can see their own pins and explore others pins to find new amazing places all around the world. 
+- **MapPin** is a web-based map application developed using the MERN stack (MongoDB, Express, React, Node.js). 
+- This application enables users to log in, interact with a map, and place pins at specific locations. - Each pin includes a title, description, and rating. 
+- All users can see their own pins and explore others pins to find new amazing places all around the world. 
 
 ## Key Features
 - **User Authentication**: Secure login and logout functionality with password encryption for safe and secure logins. Managed by MongoDB.
