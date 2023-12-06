@@ -20,14 +20,14 @@ Follow these steps to set up the application on your local machine. Make sure yo
 1. **Clone the Repository**
    ```bash
    git clone [Your Repository URL]
-2. **install yarn and dependencies 
+2. **install yarn and dependencies**  
    ```bash
    yarn install
-3. **Start Backend Server 
+3. **Start Backend Server**
    ```bash
    cd backend
    yarn start
-4. **Start Frontend (React APP) 
+4. **Start Frontend (React APP)**
    ```bash
    cd frontend
    yarn start 
